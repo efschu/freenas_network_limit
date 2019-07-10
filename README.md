@@ -1,6 +1,6 @@
 # freenas_network_limit
 
-this scripts are used by cronjob and limiting network usage for cifs in this case, you can simply edit the bandwidth limit and ports to your usecase
+these scripts are used by cronjob and limiting network usage for cifs in this case, you can simply edit the bandwidth limit and ports to your usecase
 
 example cron configuration:
 ```
