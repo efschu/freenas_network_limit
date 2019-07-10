@@ -1,5 +1,5 @@
 #!/bin/bash
-/sbin/kldload dummynet
+/sbin/kldload dummynet > /dev/null
 /sbin/ipfw pipe 1 config bw 500Mbit
 /sbin/ipfw pipe 2 config bw 500Mbit
 /sbin/ipfw add 10 pipe 1 udp from any to me 137-138
